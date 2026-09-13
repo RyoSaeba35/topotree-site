@@ -1,0 +1,41 @@
+en:
+  nav:
+    how_it_works: "How it works"
+    pricing: "Pricing"
+    download: "Download"
+  hero:
+    eyebrow: "Windows disk space analyzer"
+    title: "See exactly what's filling your drive."
+    sub: "Topotree scans your entire drive in under 5 seconds and draws everything as an interactive map. The folder quietly holding 80 gigabytes stops being invisible the moment you see the picture."
+    cta: "Download for Windows"
+    trial: "14-day free trial · $9.99 to unlock"
+  features:
+    title1: "Scans in seconds"
+    body1: "Reads the NTFS Master File Table directly. A full drive with 750,000 files in under 5 seconds."
+    title2: "Two views, same data"
+    body2: "Switch between a treemap (bigger rectangle = more space) and a sunburst (rings show folder depth). Both update live as you drill in."
+    title3: "Find forgotten files"
+    body3: "Filter by age to show only files not touched in 1, 2, or 5+ years. No other disk analyzer offers this."
+    title4: "Clean up without fear"
+    body4: "Right-click to send to the Recycle Bin. Use the Collector basket to queue items from different folders and review the total before deleting."
+    title5: "Instant history"
+    body5: "Reopen any of your last 3 scans instantly without rescanning. A cleanup history dashboard tracks everything you've freed."
+    title6: "9 languages"
+    body6: "English, French, German, Spanish, Italian, Portuguese, Dutch, Polish, Japanese. Light and dark theme. Text size S / M / L."
+  screenshots:
+    title: "Everything in one window"
+    cap1: "Drive picker with usage bars"
+    cap2: "Interactive treemap"
+    cap3: "Sunburst / rings view"
+    cap4: "Safe deletion with file preview"
+  pricing:
+    title: "One-time purchase."
+    sub: "No subscription. No analytics. No ads."
+    feature1: "Full access, forever"
+    feature2: "Free updates"
+    feature3: "14-day free trial — no credit card"
+    feature4: "Windows 10 & 11 (64-bit)"
+    cta: "Try free for 14 days"
+    note: "License key delivered by email after purchase"
+  footer:
+    support: "Support"

@@ -1,0 +1,7 @@
+default: &default
+  adapter: sqlite3
+  pool: 5
+
+development:
+  <<: *default
+  database: db/development.sqlite3

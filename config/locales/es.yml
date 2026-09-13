@@ -1,0 +1,41 @@
+es:
+  nav:
+    how_it_works: "Cómo funciona"
+    pricing: "Precio"
+    download: "Descargar"
+  hero:
+    eyebrow: "Analizador de espacio en disco para Windows"
+    title: "Ve exactamente qué está llenando tu disco."
+    sub: "Topotree escanea tu disco entero en menos de 5 segundos y dibuja todo como un mapa interactivo. La carpeta que ocupa silenciosamente 80 gigabytes deja de ser invisible en cuanto ves la imagen."
+    cta: "Descargar para Windows"
+    trial: "Prueba gratuita de 14 días · $9.99 para desbloquear"
+  features:
+    title1: "Escanea en segundos"
+    body1: "Lee la tabla de archivos NTFS directamente. Un disco completo con 750.000 archivos en menos de 5 segundos."
+    title2: "Dos vistas, mismos datos"
+    body2: "Cambia entre un mapa de árbol y un sunburst. Ambos se actualizan en tiempo real mientras navegas."
+    title3: "Encuentra archivos olvidados"
+    body3: "Filtra por antigüedad para mostrar solo archivos no modificados en 1, 2 o 5+ años."
+    title4: "Limpia sin miedo"
+    body4: "Clic derecho para enviar a la Papelera de reciclaje. Usa la cesta Collector para agrupar elementos de diferentes carpetas."
+    title5: "Historial instantáneo"
+    body5: "Reabre cualquiera de tus últimos 3 escaneos al instante. Un panel muestra todo lo que has liberado."
+    title6: "9 idiomas"
+    body6: "Inglés, Francés, Alemán, Español, Italiano, Portugués, Neerlandés, Polaco, Japonés."
+  screenshots:
+    title: "Todo en una ventana"
+    cap1: "Selector de unidad con barras de uso"
+    cap2: "Mapa de árbol interactivo"
+    cap3: "Vista sunburst / anillos"
+    cap4: "Eliminación segura con vista previa"
+  pricing:
+    title: "Compra única."
+    sub: "Sin suscripción. Sin análisis. Sin anuncios."
+    feature1: "Acceso completo, para siempre"
+    feature2: "Actualizaciones gratuitas"
+    feature3: "Prueba gratuita de 14 días — sin tarjeta"
+    feature4: "Windows 10 y 11 (64 bits)"
+    cta: "Probar gratis 14 días"
+    note: "Clave de licencia enviada por correo tras la compra"
+  footer:
+    support: "Soporte"

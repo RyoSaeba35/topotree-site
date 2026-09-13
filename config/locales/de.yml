@@ -1,0 +1,41 @@
+de:
+  nav:
+    how_it_works: "So funktioniert's"
+    pricing: "Preise"
+    download: "Herunterladen"
+  hero:
+    eyebrow: "Windows-Festplattenanalyzer"
+    title: "Sehen Sie genau, was Ihre Festplatte füllt."
+    sub: "Topotree scannt Ihre gesamte Festplatte in unter 5 Sekunden und zeichnet alles als interaktive Karte. Der Ordner, der still 80 Gigabyte belegt, hört auf unsichtbar zu sein, sobald Sie das Bild sehen."
+    cta: "Für Windows herunterladen"
+    trial: "14-tägige kostenlose Testversion · 8,99 $ zum Freischalten"
+  features:
+    title1: "Scannt in Sekunden"
+    body1: "Liest die NTFS-Master-Dateitabelle direkt. Eine volle Festplatte mit 750.000 Dateien in unter 5 Sekunden."
+    title2: "Zwei Ansichten, gleiche Daten"
+    body2: "Wechseln Sie zwischen einer Treemap und einem Sunburst. Beide aktualisieren sich live während Sie navigieren."
+    title3: "Vergessene Dateien finden"
+    body3: "Filtern Sie nach Alter, um nur Dateien anzuzeigen, die seit 1, 2 oder 5+ Jahren nicht berührt wurden."
+    title4: "Sicher aufräumen"
+    body4: "Rechtsklick zum Verschieben in den Papierkorb. Verwenden Sie den Kollektor-Korb, um Elemente aus verschiedenen Ordnern zu sammeln."
+    title5: "Sofortige Historie"
+    body5: "Öffnen Sie jeden der letzten 3 Scans sofort ohne erneutes Scannen. Ein Dashboard zeigt alles, was Sie freigegeben haben."
+    title6: "9 Sprachen"
+    body6: "Englisch, Französisch, Deutsch, Spanisch, Italienisch, Portugiesisch, Niederländisch, Polnisch, Japanisch."
+  screenshots:
+    title: "Alles in einem Fenster"
+    cap1: "Laufwerkauswahl mit Nutzungsbalken"
+    cap2: "Interaktive Treemap"
+    cap3: "Sunburst / Ringe-Ansicht"
+    cap4: "Sicheres Löschen mit Dateivorschau"
+  pricing:
+    title: "Einmaliger Kauf."
+    sub: "Kein Abo. Keine Analysen. Keine Werbung."
+    feature1: "Voller Zugang, für immer"
+    feature2: "Kostenlose Updates"
+    feature3: "14-tägige Testversion — keine Kreditkarte"
+    feature4: "Windows 10 & 11 (64-Bit)"
+    cta: "14 Tage kostenlos testen"
+    note: "Lizenzschlüssel wird nach dem Kauf per E-Mail gesendet"
+  footer:
+    support: "Support"

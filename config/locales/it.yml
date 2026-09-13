@@ -1,0 +1,41 @@
+it:
+  nav:
+    how_it_works: "Come funziona"
+    pricing: "Prezzi"
+    download: "Scarica"
+  hero:
+    eyebrow: "Analizzatore spazio disco per Windows"
+    title: "Scopri esattamente cosa riempie il tuo disco."
+    sub: "Topotree scansiona l'intero disco in meno di 5 secondi e disegna tutto come una mappa interattiva."
+    cta: "Scarica per Windows"
+    trial: "Prova gratuita 14 giorni · $9.99 per sbloccare"
+  features:
+    title1: "Scansione in secondi"
+    body1: "Legge direttamente la tabella file NTFS. Un disco completo con 750.000 file in meno di 5 secondi."
+    title2: "Due viste, stessi dati"
+    body2: "Passa tra una treemap e un sunburst. Entrambe si aggiornano in tempo reale mentre navighi."
+    title3: "Trova file dimenticati"
+    body3: "Filtra per età per mostrare solo file non modificati da 1, 2 o 5+ anni."
+    title4: "Pulisci senza paura"
+    body4: "Clic destro per inviare al Cestino. Usa il Collector per raggruppare elementi da cartelle diverse."
+    title5: "Cronologia istantanea"
+    body5: "Riapri una delle ultime 3 scansioni all'istante. Un pannello mostra tutto ciò che hai liberato."
+    title6: "9 lingue"
+    body6: "Inglese, Francese, Tedesco, Spagnolo, Italiano, Portoghese, Olandese, Polacco, Giapponese."
+  screenshots:
+    title: "Tutto in una finestra"
+    cap1: "Selettore unità con barre di utilizzo"
+    cap2: "Treemap interattiva"
+    cap3: "Vista sunburst / anelli"
+    cap4: "Eliminazione sicura con anteprima file"
+  pricing:
+    title: "Acquisto unico."
+    sub: "Nessun abbonamento. Nessuna analisi. Nessuna pubblicità."
+    feature1: "Accesso completo, per sempre"
+    feature2: "Aggiornamenti gratuiti"
+    feature3: "Prova gratuita 14 giorni — senza carta"
+    feature4: "Windows 10 e 11 (64 bit)"
+    cta: "Prova gratis 14 giorni"
+    note: "Chiave di licenza inviata via email dopo l'acquisto"
+  footer:
+    support: "Supporto"

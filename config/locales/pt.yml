@@ -1,0 +1,41 @@
+pt:
+  nav:
+    how_it_works: "Como funciona"
+    pricing: "Preço"
+    download: "Baixar"
+  hero:
+    eyebrow: "Analisador de espaço em disco para Windows"
+    title: "Veja exatamente o que está enchendo seu disco."
+    sub: "Topotree escaneia todo o seu disco em menos de 5 segundos e desenha tudo como um mapa interativo."
+    cta: "Baixar para Windows"
+    trial: "Teste gratuito de 14 dias · $9.99 para desbloquear"
+  features:
+    title1: "Escaneia em segundos"
+    body1: "Lê a tabela de arquivos NTFS diretamente. Um disco completo com 750.000 arquivos em menos de 5 segundos."
+    title2: "Duas visualizações, mesmos dados"
+    body2: "Alterne entre um mapa de árvore e um sunburst. Ambos atualizam em tempo real."
+    title3: "Encontre arquivos esquecidos"
+    body3: "Filtre por idade para mostrar apenas arquivos não modificados há 1, 2 ou 5+ anos."
+    title4: "Limpe sem medo"
+    body4: "Clique com o botão direito para enviar para a Lixeira. Use o Coletor para agrupar itens de pastas diferentes."
+    title5: "Histórico instantâneo"
+    body5: "Reabra qualquer um dos últimos 3 escaneamentos instantaneamente. Um painel mostra tudo que você liberou."
+    title6: "9 idiomas"
+    body6: "Inglês, Francês, Alemão, Espanhol, Italiano, Português, Holandês, Polonês, Japonês."
+  screenshots:
+    title: "Tudo em uma janela"
+    cap1: "Seletor de unidade com barras de uso"
+    cap2: "Mapa de árvore interativo"
+    cap3: "Vista sunburst / anéis"
+    cap4: "Exclusão segura com visualização de arquivo"
+  pricing:
+    title: "Compra única."
+    sub: "Sem assinatura. Sem análises. Sem anúncios."
+    feature1: "Acesso completo, para sempre"
+    feature2: "Atualizações gratuitas"
+    feature3: "Teste gratuito de 14 dias — sem cartão"
+    feature4: "Windows 10 e 11 (64 bits)"
+    cta: "Experimentar grátis por 14 dias"
+    note: "Chave de licença enviada por e-mail após a compra"
+  footer:
+    support: "Suporte"

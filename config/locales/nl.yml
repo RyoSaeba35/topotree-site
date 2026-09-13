@@ -1,0 +1,41 @@
+nl:
+  nav:
+    how_it_works: "Hoe het werkt"
+    pricing: "Prijs"
+    download: "Downloaden"
+  hero:
+    eyebrow: "Windows schijfruimte-analysator"
+    title: "Zie precies wat uw schijf vult."
+    sub: "Topotree scant uw volledige schijf in minder dan 5 seconden en tekent alles als een interactieve kaart."
+    cta: "Downloaden voor Windows"
+    trial: "14-daagse gratis proefversie · $9.99 om te ontgrendelen"
+  features:
+    title1: "Scant in seconden"
+    body1: "Leest de NTFS-bestandstabel direct. Een volledige schijf met 750.000 bestanden in minder dan 5 seconden."
+    title2: "Twee weergaven, dezelfde data"
+    body2: "Schakel tussen een treemap en een sunburst. Beide worden live bijgewerkt terwijl u navigeert."
+    title3: "Vergeten bestanden vinden"
+    body3: "Filter op leeftijd om alleen bestanden te tonen die 1, 2 of 5+ jaar niet zijn aangeraakt."
+    title4: "Opruimen zonder angst"
+    body4: "Rechtsklik om naar de Prullenbak te sturen. Gebruik de Collector-mand om items uit verschillende mappen te verzamelen."
+    title5: "Directe geschiedenis"
+    body5: "Heropen een van uw laatste 3 scans direct zonder opnieuw te scannen."
+    title6: "9 talen"
+    body6: "Engels, Frans, Duits, Spaans, Italiaans, Portugees, Nederlands, Pools, Japans."
+  screenshots:
+    title: "Alles in één venster"
+    cap1: "Schijfselector met gebruiksbalken"
+    cap2: "Interactieve treemap"
+    cap3: "Sunburst / ringen weergave"
+    cap4: "Veilig verwijderen met bestandsvoorbeeld"
+  pricing:
+    title: "Eenmalige aankoop."
+    sub: "Geen abonnement. Geen analyse. Geen advertenties."
+    feature1: "Volledige toegang, voor altijd"
+    feature2: "Gratis updates"
+    feature3: "14-daagse gratis proef — geen creditcard"
+    feature4: "Windows 10 & 11 (64-bit)"
+    cta: "14 dagen gratis proberen"
+    note: "Licentiesleutel per e-mail na aankoop"
+  footer:
+    support: "Ondersteuning"

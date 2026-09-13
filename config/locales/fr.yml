@@ -1,0 +1,41 @@
+fr:
+  nav:
+    how_it_works: "Fonctionnement"
+    pricing: "Tarifs"
+    download: "Télécharger"
+  hero:
+    eyebrow: "Analyseur d'espace disque Windows"
+    title: "Voyez exactement ce qui remplit votre disque."
+    sub: "Topotree analyse votre disque entier en moins de 5 secondes et dessine tout sous forme de carte interactive. Le dossier qui occupe discrètement 80 gigaoctets cesse d'être invisible dès que vous voyez l'image."
+    cta: "Télécharger pour Windows"
+    trial: "Essai gratuit 14 jours · 8,99 $ pour débloquer"
+  features:
+    title1: "Analyse en quelques secondes"
+    body1: "Lit directement la table de fichiers NTFS. Un disque complet avec 750 000 fichiers en moins de 5 secondes."
+    title2: "Deux vues, mêmes données"
+    body2: "Basculez entre une carte arborescente (plus grand rectangle = plus d'espace) et un sunburst (les anneaux montrent la profondeur). Les deux se mettent à jour en temps réel."
+    title3: "Retrouvez les fichiers oubliés"
+    body3: "Filtrez par âge pour afficher uniquement les fichiers non touchés depuis 1, 2 ou 5+ ans. Aucun autre analyseur de disque n'offre cette fonctionnalité."
+    title4: "Nettoyez sans crainte"
+    body4: "Clic droit pour envoyer à la Corbeille. Utilisez le panier Collecteur pour regrouper des éléments de différents dossiers et vérifier le total avant de supprimer."
+    title5: "Historique instantané"
+    body5: "Rouvrez l'un de vos 3 derniers scans instantanément sans rescanner. Un tableau de bord d'historique de nettoyage suit tout ce que vous avez libéré."
+    title6: "9 langues"
+    body6: "Anglais, Français, Allemand, Espagnol, Italien, Portugais, Néerlandais, Polonais, Japonais. Thème clair et sombre. Taille de texte S / M / L."
+  screenshots:
+    title: "Tout en une seule fenêtre"
+    cap1: "Sélecteur de lecteur avec barres d'utilisation"
+    cap2: "Carte arborescente interactive"
+    cap3: "Vue sunburst / anneaux"
+    cap4: "Suppression sécurisée avec aperçu du fichier"
+  pricing:
+    title: "Achat unique."
+    sub: "Pas d'abonnement. Pas d'analytics. Pas de publicités."
+    feature1: "Accès complet, pour toujours"
+    feature2: "Mises à jour gratuites"
+    feature3: "Essai gratuit 14 jours — sans carte bancaire"
+    feature4: "Windows 10 & 11 (64 bits)"
+    cta: "Essayer gratuitement 14 jours"
+    note: "Clé de licence envoyée par email après l'achat"
+  footer:
+    support: "Support"

@@ -1,143 +1,107 @@
-<!-- NAV -->
 <nav class="nav">
   <div class="nav__inner">
-    <a href="/" class="nav__logo">
+    <a href="/<%= I18n.locale %>" class="nav__logo">
       <img src="/images/icon.png" alt="Topotree" width="28" height="28">
       <span>Topotree</span>
     </a>
-    <a href="https://pierrecode.gumroad.com/l/topotree" class="btn btn--sm" target="_blank" rel="noopener">
-      Download — $8.99
-    </a>
+
+    <div class="nav__links">
+      <a href="#how-it-works"><%= t('nav.how_it_works') %></a>
+      <a href="#pricing"><%= t('nav.pricing') %></a>
+      <a href="#faq">FAQ</a>
+    </div>
+
+    <div class="nav__right">
+      <select class="lang-select" onchange="window.location.href='/'+this.value">
+        <option value="en" <%= 'selected' if I18n.locale == :en %>>English</option>
+        <option value="fr" <%= 'selected' if I18n.locale == :fr %>>Français</option>
+        <option value="de" <%= 'selected' if I18n.locale == :de %>>Deutsch</option>
+        <option value="es" <%= 'selected' if I18n.locale == :es %>>Español</option>
+        <option value="it" <%= 'selected' if I18n.locale == :it %>>Italiano</option>
+        <option value="pt" <%= 'selected' if I18n.locale == :pt %>>Português</option>
+        <option value="nl" <%= 'selected' if I18n.locale == :nl %>>Nederlands</option>
+        <option value="pl" <%= 'selected' if I18n.locale == :pl %>>Polski</option>
+        <option value="ja" <%= 'selected' if I18n.locale == :ja %>>日本語</option>
+      </select>
+
+      <a href="https://gumroad.com/l/topotree" class="btn btn--sm btn--green" target="_blank" rel="noopener">
+        <%= t('nav.download') %>
+      </a>
+    </div>
   </div>
 </nav>
 
 <!-- HERO -->
 <section class="hero">
   <div class="hero__inner">
-    <p class="hero__eyebrow">Windows disk space analyzer</p>
-    <h1 class="hero__title">See exactly what's<br>filling your drive.</h1>
-    <p class="hero__sub">
-      Topotree scans your entire drive in under 5 seconds and draws everything as an interactive map.
-      The folder quietly holding 80 gigabytes stops being invisible the moment you see the picture.
-    </p>
+    <p class="hero__eyebrow"><%= t('hero.eyebrow') %></p>
+    <h1 class="hero__title"><%= t('hero.title') %></h1>
+    <p class="hero__sub"><%= t('hero.sub') %></p>
     <div class="hero__actions">
-      <a href="https://pierrecode.gumroad.com/l/topotree" class="btn btn--lg" target="_blank" rel="noopener">
-        Download for Windows
+      <a href="https://gumroad.com/l/topotree" class="btn btn--lg" target="_blank" rel="noopener">
+        <%= t('hero.cta') %>
       </a>
-      <span class="hero__trial">14-day free trial &middot; $8.99 to unlock</span>
+      <span class="hero__trial"><%= t('hero.trial') %></span>
     </div>
   </div>
 
-  <!-- App screenshot -->
   <div class="hero__screenshot">
-    <img src="/images/screenshot-treemap.png" alt="Topotree treemap view showing disk usage" class="hero__img">
+    <img src="/images/screenshot-treemap.png" alt="Topotree treemap view" class="hero__img">
   </div>
 </section>
 
 <!-- FEATURES -->
-<section class="features">
+<section class="features" id="how-it-works">
   <div class="features__inner">
-
-    <div class="feature">
-      <div class="feature__icon">⚡</div>
-      <h3 class="feature__title">Scans in seconds</h3>
-      <p class="feature__body">
-        Reads the NTFS Master File Table directly — the same technique WizTree uses.
-        A full 1 TB drive with 750,000 files in under 5 seconds.
-      </p>
-    </div>
-
-    <div class="feature">
-      <div class="feature__icon">🗺</div>
-      <h3 class="feature__title">Two views, same data</h3>
-      <p class="feature__body">
-        Switch between a treemap (bigger rectangle = more space) and a sunburst
-        (rings show folder depth). Both update live as you drill in.
-      </p>
-    </div>
-
-    <div class="feature">
-      <div class="feature__icon">📅</div>
-      <h3 class="feature__title">Find forgotten files</h3>
-      <p class="feature__body">
-        Filter by age to show only files not touched in 1, 2, or 5+ years.
-        No other disk analyzer offers this. Perfect for old downloads and project archives.
-      </p>
-    </div>
-
-    <div class="feature">
-      <div class="feature__icon">🗑</div>
-      <h3 class="feature__title">Clean up without fear</h3>
-      <p class="feature__body">
-        Right-click to send to the Recycle Bin. Use the Collector basket to queue
-        items from different folders and review the total before deleting.
-      </p>
-    </div>
-
-    <div class="feature">
-      <div class="feature__icon">⚡</div>
-      <h3 class="feature__title">Instant history</h3>
-      <p class="feature__body">
-        Reopen any of your last 3 scans instantly without rescanning.
-        A cleanup history dashboard tracks everything you've freed over time.
-      </p>
-    </div>
-
-    <div class="feature">
-      <div class="feature__icon">🌐</div>
-      <h3 class="feature__title">9 languages</h3>
-      <p class="feature__body">
-        English, French, German, Spanish, Italian, Portuguese, Dutch, Polish, Japanese.
-        Light and dark theme. Text size S / M / L.
-      </p>
-    </div>
-
+    <% [
+      ['⚡', 'title1', 'body1'],
+      ['🗺', 'title2', 'body2'],
+      ['📅', 'title3', 'body3'],
+      ['🗑', 'title4', 'body4'],
+      ['⚡', 'title5', 'body5'],
+      ['🌐', 'title6', 'body6'],
+    ].each do |icon, title_key, body_key| %>
+      <div class="feature">
+        <div class="feature__icon"><%= icon %></div>
+        <h3 class="feature__title"><%= t("features.#{title_key}") %></h3>
+        <p class="feature__body"><%= t("features.#{body_key}") %></p>
+      </div>
+    <% end %>
   </div>
 </section>
 
-<!-- SCREENSHOT STRIP -->
+<!-- SCREENSHOTS -->
 <section class="screenshots">
   <div class="screenshots__inner">
-    <h2 class="screenshots__title">Everything in one window</h2>
+    <h2 class="screenshots__title"><%= t('screenshots.title') %></h2>
     <div class="screenshots__grid">
-      <figure class="screenshot-card">
-        <img src="/images/ss1.png" alt="Topotree scan screen">
-        <figcaption>Drive picker with usage bars</figcaption>
-      </figure>
-      <figure class="screenshot-card">
-        <img src="/images/ss2.png" alt="Topotree treemap view">
-        <figcaption>Interactive treemap</figcaption>
-      </figure>
-      <figure class="screenshot-card">
-        <img src="/images/ss3.png" alt="Topotree sunburst rings view">
-        <figcaption>Sunburst / rings view</figcaption>
-      </figure>
-      <figure class="screenshot-card">
-        <img src="/images/ss4.png" alt="Topotree delete confirmation">
-        <figcaption>Safe deletion with file preview</figcaption>
-      </figure>
+      <% [['ss1.png','cap1'],['ss2.png','cap2'],['ss3.png','cap3'],['ss4.png','cap4']].each do |img, cap| %>
+        <figure class="screenshot-card">
+          <img src="/images/<%= img %>" alt="<%= t("screenshots.#{cap}") %>">
+          <figcaption><%= t("screenshots.#{cap}") %></figcaption>
+        </figure>
+      <% end %>
     </div>
   </div>
 </section>
 
 <!-- PRICING -->
-<section class="pricing">
+<section class="pricing" id="pricing">
   <div class="pricing__inner">
-    <h2 class="pricing__title">One-time purchase.</h2>
-    <p class="pricing__sub">No subscription. No analytics. No ads.</p>
+    <h2 class="pricing__title"><%= t('pricing.title') %></h2>
+    <p class="pricing__sub"><%= t('pricing.sub') %></p>
 
     <div class="pricing__card">
-      <div class="pricing__amount">$8.99</div>
+      <div class="pricing__amount">$9.99</div>
       <ul class="pricing__list">
-        <li>Full access, forever</li>
-        <li>Free updates</li>
-        <li>14-day free trial — no credit card</li>
-        <li>Windows 10 &amp; 11 (64-bit)</li>
+        <% ['feature1','feature2','feature3','feature4'].each do |f| %>
+          <li><%= t("pricing.#{f}") %></li>
+        <% end %>
       </ul>
-      <a href="https://pierrecode.gumroad.com/l/topotree" class="btn btn--lg btn--full" target="_blank" rel="noopener">
-        Try free for 14 days
+      <a href="https://gumroad.com/l/topotree" class="btn btn--lg btn--full" target="_blank" rel="noopener">
+        <%= t('pricing.cta') %>
       </a>
-      <p class="pricing__note">License key delivered by email after purchase</p>
+      <p class="pricing__note"><%= t('pricing.note') %></p>
     </div>
   </div>
 </section>
@@ -145,10 +109,16 @@
 <!-- FOOTER -->
 <footer class="footer">
   <div class="footer__inner">
-    <span>Topotree by <a href="https://galernestudio.com" target="_blank" rel="noopener">Galerne Studio</a></span>
+    <span>© 2026 <a href="https://galernestudio.com" target="_blank" rel="noopener">Galerne Studio</a></span>
     <span class="footer__sep">&middot;</span>
-    <a href="mailto:support@galernestudio.com">Support</a>
+    <a href="<%= privacy_path %>">Privacy</a>
     <span class="footer__sep">&middot;</span>
-    <span>Windows 10 &amp; 11</span>
+    <a href="<%= terms_path %>">Terms</a>
+    <span class="footer__sep">&middot;</span>
+    <a href="<%= mentions_legales_path %>">Mentions légales</a>
+    <span class="footer__sep">&middot;</span>
+    <a href="<%= changelog_path %>">Changelog</a>
+    <span class="footer__sep">&middot;</span>
+    <a href="mailto:support@galernestudio.com"><%= t('footer.support') %></a>
   </div>
 </footer>
