@@ -8,7 +8,7 @@ de:
     title: "Sehen Sie genau, was Ihre Festplatte füllt."
     sub: "Topotree scannt Ihre gesamte Festplatte in unter 5 Sekunden und zeichnet alles als interaktive Karte. Der Ordner, der still 80 Gigabyte belegt, hört auf unsichtbar zu sein, sobald Sie das Bild sehen."
     cta: "Für Windows herunterladen"
-    trial: "14-tägige kostenlose Testversion · 8,99 $ zum Freischalten"
+    trial: "14-tägige kostenlose Testversion"
   features:
     title1: "Scannt in Sekunden"
     body1: "Liest die NTFS-Master-Dateitabelle direkt. Eine volle Festplatte mit 750.000 Dateien in unter 5 Sekunden."
@@ -35,7 +35,7 @@ de:
     feature2: "Kostenlose Updates"
     feature3: "14-tägige Testversion — keine Kreditkarte"
     feature4: "Windows 10 & 11 (64-Bit)"
-    cta: "14 Tage kostenlos testen"
+    cta: "Kaufen — 9,99 $"
     note: "Lizenzschlüssel wird nach dem Kauf per E-Mail gesendet"
   footer:
     support: "Support"

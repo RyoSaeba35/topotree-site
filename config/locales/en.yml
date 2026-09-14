@@ -8,7 +8,7 @@ en:
     title: "See exactly what's filling your drive."
     sub: "Topotree scans your entire drive in under 5 seconds and draws everything as an interactive map. The folder quietly holding 80 gigabytes stops being invisible the moment you see the picture."
     cta: "Download for Windows"
-    trial: "14-day free trial · $9.99 to unlock"
+    trial: "14-day free trial"
   features:
     title1: "Scans in seconds"
     body1: "Reads the NTFS Master File Table directly. A full drive with 750,000 files in under 5 seconds."
@@ -35,7 +35,7 @@ en:
     feature2: "Free updates"
     feature3: "14-day free trial — no credit card"
     feature4: "Windows 10 & 11 (64-bit)"
-    cta: "Try free for 14 days"
+    cta: "Buy — $9.99"
     note: "License key delivered by email after purchase"
   footer:
     support: "Support"

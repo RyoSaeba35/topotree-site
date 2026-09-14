@@ -8,7 +8,7 @@ fr:
     title: "Voyez exactement ce qui remplit votre disque."
     sub: "Topotree analyse votre disque entier en moins de 5 secondes et dessine tout sous forme de carte interactive. Le dossier qui occupe discrètement 80 gigaoctets cesse d'être invisible dès que vous voyez l'image."
     cta: "Télécharger pour Windows"
-    trial: "Essai gratuit 14 jours · 8,99 $ pour débloquer"
+    trial: "Essai gratuit 14 jours"
   features:
     title1: "Analyse en quelques secondes"
     body1: "Lit directement la table de fichiers NTFS. Un disque complet avec 750 000 fichiers en moins de 5 secondes."
@@ -35,7 +35,7 @@ fr:
     feature2: "Mises à jour gratuites"
     feature3: "Essai gratuit 14 jours — sans carte bancaire"
     feature4: "Windows 10 & 11 (64 bits)"
-    cta: "Essayer gratuitement 14 jours"
+    cta: "Acheter — 9,99 $"
     note: "Clé de licence envoyée par email après l'achat"
   footer:
     support: "Support"

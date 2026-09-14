@@ -8,7 +8,7 @@ pt:
     title: "Veja exatamente o que está enchendo seu disco."
     sub: "Topotree escaneia todo o seu disco em menos de 5 segundos e desenha tudo como um mapa interativo."
     cta: "Baixar para Windows"
-    trial: "Teste gratuito de 14 dias · $9.99 para desbloquear"
+    trial: "Teste gratuito de 14 dias"
   features:
     title1: "Escaneia em segundos"
     body1: "Lê a tabela de arquivos NTFS diretamente. Um disco completo com 750.000 arquivos em menos de 5 segundos."
@@ -35,7 +35,7 @@ pt:
     feature2: "Atualizações gratuitas"
     feature3: "Teste gratuito de 14 dias — sem cartão"
     feature4: "Windows 10 e 11 (64 bits)"
-    cta: "Experimentar grátis por 14 dias"
+    cta: "Comprar — 9,99 $"
     note: "Chave de licença enviada por e-mail após a compra"
   footer:
     support: "Suporte"
