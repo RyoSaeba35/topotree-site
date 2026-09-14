@@ -1,6 +1,6 @@
 # Topotree Landing Page
 
-Rails landing page for [Topotree](https://gumroad.com/l/topotree).
+Rails landing page for [Topotree](https://topotree.app/buy).
 
 ## Setup
 
