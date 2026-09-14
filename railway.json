@@ -1,0 +1,9 @@
+{
+  "$schema": "https://railway.app/railway.schema.json",
+  "build": {
+    "buildCommand": "bundle install"
+  },
+  "deploy": {
+    "startCommand": "bundle exec puma -C config/puma.rb"
+  }
+}
