@@ -2,8 +2,8 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
-  <% [nil, :fr, :de, :es, :it, :pt, :nl, :pl, :ja].each do |locale| %>
-    <% base = locale ? "/#{locale}" : "" %>
+  <% [nil, :fr, :de, :es, :it, :pt, :nl, :pl, :ja].each do |locale| -%>
+    <% base = locale ? "/#{locale}" : "" -%>
     <url>
       <loc>https://www.topotree.app<%= base %></loc>
       <xhtml:link rel="alternate" hreflang="<%= locale || 'en' %>" href="https://www.topotree.app<%= base %>"/>
@@ -15,6 +15,6 @@
       <changefreq>weekly</changefreq>
       <priority>0.5</priority>
     </url>
-  <% end %>
+  <% end -%>
 
 </urlset>
