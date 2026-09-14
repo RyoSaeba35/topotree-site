@@ -37,5 +37,16 @@ de:
     feature4: "Windows 10 & 11 (64-Bit)"
     cta: "Kaufen — 9,99 $"
     note: "Lizenzschlüssel wird nach dem Kauf per E-Mail gesendet"
+  faq:
+    q1: "Funktioniert es unter Windows 10?"
+    a1: "Ja, Topotree läuft auf Windows 10 und 11 (64-Bit)."
+    q2: "Warum werden Administratorrechte benötigt?"
+    a2: "Topotree liest die NTFS Master File Table direkt aus, um maximale Geschwindigkeit zu erreichen. Dafür sind Administratorrechte erforderlich — ohne sie würde ein vollständiger Scan Minuten statt Sekunden dauern."
+    q3: "Werden Dateien dauerhaft gelöscht?"
+    a3: "Nein. Dateien werden standardmäßig in den Papierkorb verschoben und können bei Bedarf wiederhergestellt werden."
+    q4: "Wie funktioniert die Testversion?"
+    a4: "Sie erhalten 14 Tage Vollzugang ohne Kreditkarte. Nach der Testphase schaltet ein einmaliger Kauf von 9,99 $ die App dauerhaft frei."
+    q5: "Ich habe gekauft — wie aktiviere ich meine Lizenz?"
+    a5: "Nach dem Kauf auf Gumroad erhalten Sie einen Lizenzschlüssel per E-Mail. Öffnen Sie Topotree, klicken Sie auf 'Lizenzschlüssel eingeben' und fügen Sie ihn ein."
   footer:
     support: "Support"

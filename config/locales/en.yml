@@ -37,5 +37,16 @@ en:
     feature4: "Windows 10 & 11 (64-bit)"
     cta: "Buy — $9.99"
     note: "License key delivered by email after purchase"
+  faq:
+    q1: "Does it work on Windows 10?"
+    a1: "Yes, Topotree runs on Windows 10 and 11 (64-bit)."
+    q2: "Why does it ask for administrator permissions?"
+    a2: "Topotree reads the NTFS Master File Table directly for maximum speed. This requires admin access — without it, a full drive scan would take minutes instead of seconds."
+    q3: "Does it delete files permanently?"
+    a3: "No. Files are sent to the Recycle Bin by default so you can restore them if needed."
+    q4: "How does the trial work?"
+    a4: "You get 14 days of full access with no credit card required. After the trial, a one-time purchase of $9.99 unlocks the app permanently."
+    q5: "I bought it — how do I activate my license?"
+    a5: "After purchasing on Gumroad you'll receive a license key by email. Open Topotree, click 'Enter license key' on the trial screen, and paste it in."
   footer:
     support: "Support"

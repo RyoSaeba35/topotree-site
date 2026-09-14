@@ -37,5 +37,16 @@ nl:
     feature4: "Windows 10 & 11 (64-bit)"
     cta: "Kopen — € 9,99"
     note: "Licentiesleutel per e-mail na aankoop"
+  faq:
+    q1: "Werkt het op Windows 10?"
+    a1: "Ja, Topotree werkt op Windows 10 en 11 (64-bit)."
+    q2: "Waarom vraagt het om beheerdersmachtigingen?"
+    a2: "Topotree leest de NTFS Master File Table rechtstreeks voor maximale snelheid. Dit vereist beheerderstoegang — zonder dit zou een volledige scan minuten duren in plaats van seconden."
+    q3: "Worden bestanden permanent verwijderd?"
+    a3: "Nee. Bestanden worden standaard naar de Prullenbak gestuurd, zodat je ze indien nodig kunt herstellen."
+    q4: "Hoe werkt de proefperiode?"
+    a4: "Je krijgt 14 dagen volledige toegang zonder creditcard. Na de proefperiode ontgrendelt een eenmalige aankoop van $9,99 de app permanent."
+    q5: "Ik heb het gekocht — hoe activeer ik mijn licentie?"
+    a5: "Na de aankoop op Gumroad ontvang je een licentiesleutel per e-mail. Open Topotree, klik op 'Licentiesleutel invoeren' in het proefscherm en plak hem in."
   footer:
     support: "Ondersteuning"

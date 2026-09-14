@@ -106,6 +106,27 @@
   </div>
 </section>
 
+<!-- FAQ -->
+<section class="faq" id="faq">
+  <div class="faq__inner">
+    <h2 class="faq__title">FAQ</h2>
+    <div class="faq__list">
+      <% [
+        ['faq.q1', 'faq.a1'],
+        ['faq.q2', 'faq.a2'],
+        ['faq.q3', 'faq.a3'],
+        ['faq.q4', 'faq.a4'],
+        ['faq.q5', 'faq.a5'],
+      ].each do |q, a| %>
+        <details class="faq__item">
+          <summary class="faq__q"><%= t(q) %></summary>
+          <p class="faq__a"><%= t(a) %></p>
+        </details>
+      <% end %>
+    </div>
+  </div>
+</section>
+
 <!-- FOOTER -->
 <footer class="footer">
   <div class="footer__inner">

@@ -37,5 +37,16 @@ pt:
     feature4: "Windows 10 e 11 (64 bits)"
     cta: "Comprar — 9,99 $"
     note: "Chave de licença enviada por e-mail após a compra"
+  faq:
+    q1: "Funciona no Windows 10?"
+    a1: "Sim, o Topotree funciona no Windows 10 e 11 (64 bits)."
+    q2: "Por que solicita permissões de administrador?"
+    a2: "O Topotree lê diretamente a Master File Table do NTFS para velocidade máxima. Isso requer acesso de administrador — sem ele, uma varredura completa levaria minutos em vez de segundos."
+    q3: "Ele exclui arquivos permanentemente?"
+    a3: "Não. Os arquivos são enviados para a Lixeira por padrão, para que você possa restaurá-los se necessário."
+    q4: "Como funciona o período de avaliação?"
+    a4: "Você tem 14 dias de acesso completo sem precisar de cartão de crédito. Após o período de avaliação, uma compra única de $9,99 desbloqueia o aplicativo permanentemente."
+    q5: "Comprei — como ativo minha licença?"
+    a5: "Após a compra no Gumroad, você receberá uma chave de licença por e-mail. Abra o Topotree, clique em 'Inserir chave de licença' na tela de avaliação e cole-a."
   footer:
     support: "Suporte"
