@@ -5,6 +5,6 @@ class PagesController < ApplicationController
   def mentions_legales; end
   def changelog; end
   def sitemap
-    render layout: false
+    render layout: false, content_type: 'application/xml'
   end
 end
