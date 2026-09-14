@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   get '/buy', to: redirect('https://gumroad.com/l/topotree')
+  get '/download', to: redirect('https://github.com/RyoSaeba35/TopoTree_releases/releases/download/v0.1.0/Topotree_0.1.0_x64-setup.exe')
 
   # Default locale (en) at root
   root "pages#home"
