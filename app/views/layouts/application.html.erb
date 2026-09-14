@@ -1,13 +1,69 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<%= I18n.locale %>">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Topotree — fast disk space analyzer for Windows. Scan your entire drive in under 5 seconds. Find what's filling your drive and clean it up safely.">
-  <title>Topotree — Disk Space Analyzer for Windows</title>
+
+  <!-- Primary meta -->
+  <title><%= content_for?(:title) ? yield(:title) : "Topotree — Disk Space Analyzer for Windows" %></title>
+  <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Topotree scans your entire drive in under 5 seconds. Interactive treemap and sunburst views. Find what's filling your disk and clean it up safely. Free 14-day trial." %>">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://www.topotree.app<%= request.path %>">
+
+  <!-- Open Graph -->
+  <meta property="og:type"        content="website">
+  <meta property="og:url"         content="https://www.topotree.app<%= request.path %>">
+  <meta property="og:title"       content="<%= content_for?(:title) ? yield(:title) : "Topotree — Disk Space Analyzer for Windows" %>">
+  <meta property="og:description" content="<%= content_for?(:description) ? yield(:description) : "Scan your entire drive in under 5 seconds. Interactive treemap and sunburst views. Find what's filling your disk and clean it up safely." %>">
+  <meta property="og:image"       content="https://www.topotree.app/images/og.png">
+  <meta property="og:site_name"   content="Topotree">
+  <meta property="og:locale"      content="<%= I18n.locale %>">
+
+  <!-- Twitter card -->
+  <meta name="twitter:card"        content="summary_large_image">
+  <meta name="twitter:title"       content="Topotree — Disk Space Analyzer for Windows">
+  <meta name="twitter:description" content="Scan your entire drive in under 5 seconds. Find what's filling your disk and clean it up safely.">
+  <meta name="twitter:image"       content="https://www.topotree.app/images/og.png">
+
+  <!-- hreflang for multilingual -->
+  <link rel="alternate" hreflang="en" href="https://www.topotree.app/">
+  <link rel="alternate" hreflang="fr" href="https://www.topotree.app/fr">
+  <link rel="alternate" hreflang="de" href="https://www.topotree.app/de">
+  <link rel="alternate" hreflang="es" href="https://www.topotree.app/es">
+  <link rel="alternate" hreflang="it" href="https://www.topotree.app/it">
+  <link rel="alternate" hreflang="pt" href="https://www.topotree.app/pt">
+  <link rel="alternate" hreflang="nl" href="https://www.topotree.app/nl">
+  <link rel="alternate" hreflang="pl" href="https://www.topotree.app/pl">
+  <link rel="alternate" hreflang="ja" href="https://www.topotree.app/ja">
+  <link rel="alternate" hreflang="x-default" href="https://www.topotree.app/">
 
   <!-- Favicon -->
-  <link rel="icon" type="image/png" href="/images/icon.png">
+  <link rel="icon"       type="image/png" sizes="32x32" href="/images/favicon-32.png">
+  <link rel="icon"       type="image/png" sizes="16x16" href="/images/favicon-16.png">
+  <link rel="apple-touch-icon"            sizes="180x180" href="/images/apple-touch-icon.png">
+
+  <!-- JSON-LD structured data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Topotree",
+    "operatingSystem": "Windows 10, Windows 11",
+    "applicationCategory": "UtilitiesApplication",
+    "offers": {
+      "@type": "Offer",
+      "price": "9.99",
+      "priceCurrency": "USD"
+    },
+    "description": "Fast disk space analyzer for Windows. Scans a full drive in under 5 seconds using MFT direct read.",
+    "url": "https://www.topotree.app",
+    "publisher": {
+      "@type": "Organization",
+      "name": "Galerne Studio",
+      "url": "https://galernestudio.com"
+    }
+  }
+  </script>
 
   <!-- Inter font -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,6 +71,9 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="/stylesheets/application.css">
+
+  <!-- Analytics -->
+  <script defer src="https://umami-production-2843.up.railway.app/script.js" data-website-id="0fad8f55-1ac1-4669-8810-89b8f3da1d76"></script>
 </head>
 <body>
   <%= yield %>
