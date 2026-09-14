@@ -4,4 +4,7 @@ class PagesController < ApplicationController
   def terms; end
   def mentions_legales; end
   def changelog; end
+  def sitemap
+    render layout: false
+  end
 end

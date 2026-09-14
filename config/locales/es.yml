@@ -8,6 +8,7 @@ es:
     title: "Ve exactamente qué está llenando tu disco."
     sub: "Topotree escanea tu disco entero en menos de 5 segundos y dibuja todo como un mapa interactivo. La carpeta que ocupa silenciosamente 80 gigabytes deja de ser invisible en cuanto ves la imagen."
     cta: "Descargar para Windows"
+    cta_store: "Obtener desde Microsoft Store"
     trial: "Prueba gratuita de 14 días"
   features:
     title1: "Escanea en segundos"

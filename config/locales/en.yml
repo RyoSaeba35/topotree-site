@@ -8,6 +8,7 @@ en:
     title: "See exactly what's filling your drive."
     sub: "Topotree scans your entire drive in under 5 seconds and draws everything as an interactive map. The folder quietly holding 80 gigabytes stops being invisible the moment you see the picture."
     cta: "Download for Windows"
+    cta_store: "Get from Microsoft Store"
     trial: "14-day free trial"
   features:
     title1: "Scans in seconds"

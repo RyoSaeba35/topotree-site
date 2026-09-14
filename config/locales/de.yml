@@ -8,6 +8,7 @@ de:
     title: "Sehen Sie genau, was Ihre Festplatte füllt."
     sub: "Topotree scannt Ihre gesamte Festplatte in unter 5 Sekunden und zeichnet alles als interaktive Karte. Der Ordner, der still 80 Gigabyte belegt, hört auf unsichtbar zu sein, sobald Sie das Bild sehen."
     cta: "Für Windows herunterladen"
+    cta_store: "Im Microsoft Store holen"
     trial: "14-tägige kostenlose Testversion"
   features:
     title1: "Scannt in Sekunden"

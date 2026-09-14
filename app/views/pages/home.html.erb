@@ -1,6 +1,6 @@
 <nav class="nav">
   <div class="nav__inner">
-    <a href="/<%= I18n.locale %>" class="nav__logo">
+    <a href="/<%= I18n.locale == :en ? '' : I18n.locale %>" class="nav__logo">
       <img src="/images/icon.png" alt="Topotree" width="28" height="28">
       <span>Topotree</span>
     </a>
@@ -24,7 +24,7 @@
         <option value="ja" <%= 'selected' if I18n.locale == :ja %>>日本語</option>
       </select>
 
-      <a href="/download" class="btn btn--sm btn--green" target="_blank" rel="noopener">
+      <a href="/download" class="btn btn--sm btn--green">
         <%= t('nav.download') %>
       </a>
     </div>
@@ -35,14 +35,17 @@
 <section class="hero">
   <div class="hero__inner">
     <p class="hero__eyebrow"><%= t('hero.eyebrow') %></p>
-    <h1 class="hero__title"><%= t('hero.title') %></h1>
+    <h1 class="hero__title"><%= raw t('hero.title') %></h1>
     <p class="hero__sub"><%= t('hero.sub') %></p>
     <div class="hero__actions">
-      <a href="/buy" class="btn btn--lg" target="_blank" rel="noopener">
+      <a href="https://apps.microsoft.com/store/detail/topotree/9NVT8Q45KNG5" class="btn btn--lg btn--outline">
+        <%= t('hero.cta_store') %>
+      </a>
+      <a href="/download" class="btn btn--lg btn--green">
         <%= t('hero.cta') %>
       </a>
-      <span class="hero__trial"><%= t('hero.trial') %></span>
     </div>
+    <p class="hero__trial"><%= t('hero.trial') %></p>
   </div>
 
   <div class="hero__screenshot">
@@ -58,7 +61,7 @@
       ['🗺', 'title2', 'body2'],
       ['📅', 'title3', 'body3'],
       ['🗑', 'title4', 'body4'],
-      ['⚡', 'title5', 'body5'],
+      ['🧺', 'title5', 'body5'],
       ['🌐', 'title6', 'body6'],
     ].each do |icon, title_key, body_key| %>
       <div class="feature">
@@ -90,7 +93,6 @@
   <div class="pricing__inner">
     <h2 class="pricing__title"><%= t('pricing.title') %></h2>
     <p class="pricing__sub"><%= t('pricing.sub') %></p>
-
     <div class="pricing__card">
       <div class="pricing__amount">$9.99</div>
       <ul class="pricing__list">
@@ -98,7 +100,7 @@
           <li><%= t("pricing.#{f}") %></li>
         <% end %>
       </ul>
-      <a href="/buy" class="btn btn--lg btn--full" target="_blank" rel="noopener">
+      <a href="/buy" class="btn btn--lg btn--full btn--green">
         <%= t('pricing.cta') %>
       </a>
       <p class="pricing__note"><%= t('pricing.note') %></p>

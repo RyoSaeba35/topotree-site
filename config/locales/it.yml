@@ -8,6 +8,7 @@ it:
     title: "Scopri esattamente cosa riempie il tuo disco."
     sub: "Topotree scansiona l'intero disco in meno di 5 secondi e disegna tutto come una mappa interattiva."
     cta: "Scarica per Windows"
+    cta_store: "Ottieni dal Microsoft Store"
     trial: "Prova gratuita 14 giorni"
   features:
     title1: "Scansione in secondi"

@@ -13,6 +13,8 @@ Rails.application.routes.draw do
   get "/mentions-legales", to: "pages#mentions_legales", as: :mentions_legales
   get "/changelog",        to: "pages#changelog",        as: :changelog
 
+  get '/sitemap.xml', to: 'pages#sitemap', defaults: { format: 'xml' }
+
   # Localized routes
   scope "/:locale", locale: /fr|de|es|it|pt|nl|pl|ja/ do
     root "pages#home", as: :localized_root

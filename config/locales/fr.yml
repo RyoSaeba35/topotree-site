@@ -8,6 +8,7 @@ fr:
     title: "Voyez exactement ce qui remplit votre disque."
     sub: "Topotree analyse votre disque entier en moins de 5 secondes et dessine tout sous forme de carte interactive. Le dossier qui occupe discrètement 80 gigaoctets cesse d'être invisible dès que vous voyez l'image."
     cta: "Télécharger pour Windows"
+    cta_store: "Obtenir depuis le Microsoft Store"
     trial: "Essai gratuit 14 jours"
   features:
     title1: "Analyse en quelques secondes"
