@@ -7,3 +7,4 @@ gem "sprockets-rails"
 gem "importmap-rails"
 gem "turbo-rails"
 gem "propshaft"
+gem "bootsnap", require: false
