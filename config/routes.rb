@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get '/buy', to: redirect('https://gumroad.com/l/topotree')
+
   # Default locale (en) at root
   root "pages#home"
   get "/privacy",          to: "pages#privacy",         as: :privacy
