@@ -408,13 +408,15 @@ img { display: block; max-width: 100%; }
   border-top: 1px solid var(--border);
   padding: 28px 24px;
   background: var(--surface);
+  text-align: center;        /* ← add this */
 }
 
 .footer__inner {
   max-width: 1100px;
-  margin: 0 auto;
+  margin: 0 auto;            /* ← make sure this is there */
   display: flex;
   align-items: center;
+  justify-content: center;   /* ← add this */
   gap: 12px;
   font-size: 13px;
   color: var(--text-dim);
