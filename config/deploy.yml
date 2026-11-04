@@ -1,0 +1,30 @@
+service: topotree
+image: ryosaeba35/topotree
+
+servers:
+  web:
+    - 84.235.238.72
+
+ssh:
+  user: ubuntu
+
+proxy:
+  ssl: true
+  app_port: 3000
+  hosts:
+    - topotree.app
+    - www.topotree.app
+
+registry:
+  server: ghcr.io
+  username: ryosaeba35
+  password:
+    - KAMAL_REGISTRY_PASSWORD
+
+env:
+  secret:
+    - SECRET_KEY_BASE
+
+builder:
+  arch: arm64
+  remote: ssh://ubuntu@84.235.238.72
