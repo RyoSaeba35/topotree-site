@@ -16,7 +16,7 @@ fr:
     title2: "Deux vues, mêmes données"
     body2: "Basculez entre une carte arborescente (plus grand rectangle = plus d'espace) et un sunburst (les anneaux montrent la profondeur). Les deux se mettent à jour en temps réel."
     title3: "Retrouvez les fichiers oubliés"
-    body3: "Filtrez par âge pour afficher uniquement les fichiers non touchés depuis 1, 2 ou 5+ ans. Aucun autre analyseur de disque n'offre cette fonctionnalité."
+    body3: "Filtrez par âge pour afficher uniquement les fichiers non touchés depuis 1, 2 ou 5+ ans."
     title4: "Nettoyez sans crainte"
     body4: "Clic droit pour envoyer à la Corbeille. Utilisez le panier Collecteur pour regrouper des éléments de différents dossiers et vérifier le total avant de supprimer."
     title5: "Historique instantané"

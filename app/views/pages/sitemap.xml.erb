@@ -1,20 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
-
-  <% [nil, :fr, :de, :es, :it, :pt, :nl, :pl, :ja].each do |locale| -%>
-    <% base = locale ? "/#{locale}" : "" -%>
-    <url>
-      <loc>https://www.topotree.app<%= base %></loc>
-      <xhtml:link rel="alternate" hreflang="<%= locale || 'en' %>" href="https://www.topotree.app<%= base %>"/>
-      <changefreq>weekly</changefreq>
-      <priority><%= locale ? '0.8' : '1.0' %></priority>
-    </url>
-    <url>
-      <loc>https://www.topotree.app<%= base %>/changelog</loc>
-      <changefreq>weekly</changefreq>
-      <priority>0.5</priority>
-    </url>
-  <% end -%>
-
+<% locales = I18n.available_locales -%>
+<% locales.each do |locale| -%>
+  <url>
+    <loc>https://www.topotree.app<%= locale == :en ? "/" : "/#{locale}" %></loc>
+<% locales.each do |alt| -%>
+    <xhtml:link rel="alternate" hreflang="<%= alt %>" href="https://www.topotree.app<%= alt == :en ? "/" : "/#{alt}" %>"/>
+<% end -%>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://www.topotree.app/"/>
+    <priority><%= locale == :en ? '1.0' : '0.8' %></priority>
+  </url>
+<% end -%>
+<% %w[/changelog /privacy /terms].each do |page| -%>
+  <url>
+    <loc>https://www.topotree.app<%= page %></loc>
+    <priority>0.4</priority>
+  </url>
+<% end -%>
 </urlset>

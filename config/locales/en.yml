@@ -16,7 +16,7 @@ en:
     title2: "Two views, same data"
     body2: "Switch between a treemap (bigger rectangle = more space) and a sunburst (rings show folder depth). Both update live as you drill in."
     title3: "Find forgotten files"
-    body3: "Filter by age to show only files not touched in 1, 2, or 5+ years. No other disk analyzer offers this."
+    body3: "Filter by age to show only files not touched in 1, 2, or 5+ years."
     title4: "Clean up without fear"
     body4: "Right-click to send to the Recycle Bin. Use the Collector basket to queue items from different folders and review the total before deleting."
     title5: "Instant history"

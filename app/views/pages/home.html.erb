@@ -12,16 +12,16 @@
     </div>
 
     <div class="nav__right">
-      <select class="lang-select" onchange="window.location.href='/'+this.value">
-        <option value="en" <%= 'selected' if I18n.locale == :en %>>English</option>
-        <option value="fr" <%= 'selected' if I18n.locale == :fr %>>Français</option>
-        <option value="de" <%= 'selected' if I18n.locale == :de %>>Deutsch</option>
-        <option value="es" <%= 'selected' if I18n.locale == :es %>>Español</option>
-        <option value="it" <%= 'selected' if I18n.locale == :it %>>Italiano</option>
-        <option value="pt" <%= 'selected' if I18n.locale == :pt %>>Português</option>
-        <option value="nl" <%= 'selected' if I18n.locale == :nl %>>Nederlands</option>
-        <option value="pl" <%= 'selected' if I18n.locale == :pl %>>Polski</option>
-        <option value="ja" <%= 'selected' if I18n.locale == :ja %>>日本語</option>
+      <select class="lang-select" aria-label="Language" onchange="window.location.href=this.value">
+        <option value="<%= localized_path(:en) %>" <%= 'selected' if I18n.locale == :en %>>English</option>
+        <option value="<%= localized_path(:fr) %>" <%= 'selected' if I18n.locale == :fr %>>Français</option>
+        <option value="<%= localized_path(:de) %>" <%= 'selected' if I18n.locale == :de %>>Deutsch</option>
+        <option value="<%= localized_path(:es) %>" <%= 'selected' if I18n.locale == :es %>>Español</option>
+        <option value="<%= localized_path(:it) %>" <%= 'selected' if I18n.locale == :it %>>Italiano</option>
+        <option value="<%= localized_path(:pt) %>" <%= 'selected' if I18n.locale == :pt %>>Português</option>
+        <option value="<%= localized_path(:nl) %>" <%= 'selected' if I18n.locale == :nl %>>Nederlands</option>
+        <option value="<%= localized_path(:pl) %>" <%= 'selected' if I18n.locale == :pl %>>Polski</option>
+        <option value="<%= localized_path(:ja) %>" <%= 'selected' if I18n.locale == :ja %>>日本語</option>
       </select>
 
       <a href="/download" class="btn btn--sm btn--green">

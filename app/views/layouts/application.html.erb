@@ -8,7 +8,8 @@
   <title><%= content_for?(:title) ? yield(:title) : "Topotree — Disk Space Analyzer for Windows" %></title>
   <meta name="description" content="<%= content_for?(:description) ? yield(:description) : "Topotree scans your entire drive in under 5 seconds. Interactive treemap and sunburst views. Find what's filling your disk and clean it up safely. Free 14-day trial." %>">
   <meta name="robots" content="index, follow">
-  <link rel="canonical" href="https://www.topotree.app<%= request.path %>">
+  <% home_page = path_without_locale == "/" %>
+  <link rel="canonical" href="https://www.topotree.app<%= home_page ? request.path : path_without_locale %>">
 
   <!-- Open Graph -->
   <meta property="og:type"        content="website">
@@ -26,16 +27,12 @@
   <meta name="twitter:image"       content="https://www.topotree.app/images/og.png">
 
   <!-- hreflang for multilingual -->
-  <link rel="alternate" hreflang="en" href="https://www.topotree.app/">
-  <link rel="alternate" hreflang="fr" href="https://www.topotree.app/fr">
-  <link rel="alternate" hreflang="de" href="https://www.topotree.app/de">
-  <link rel="alternate" hreflang="es" href="https://www.topotree.app/es">
-  <link rel="alternate" hreflang="it" href="https://www.topotree.app/it">
-  <link rel="alternate" hreflang="pt" href="https://www.topotree.app/pt">
-  <link rel="alternate" hreflang="nl" href="https://www.topotree.app/nl">
-  <link rel="alternate" hreflang="pl" href="https://www.topotree.app/pl">
-  <link rel="alternate" hreflang="ja" href="https://www.topotree.app/ja">
-  <link rel="alternate" hreflang="x-default" href="https://www.topotree.app/">
+  <% if home_page %>
+  <% I18n.available_locales.each do |loc| %>
+  <link rel="alternate" hreflang="<%= loc %>" href="https://www.topotree.app<%= localized_path(loc) %>">
+  <% end %>
+  <link rel="alternate" hreflang="x-default" href="https://www.topotree.app<%= localized_path(:en) %>">
+  <% end %>
 
   <!-- Favicon -->
   <link rel="icon"       type="image/png" sizes="32x32" href="/images/favicon-32.png">
